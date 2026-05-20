@@ -158,6 +158,9 @@ export const MODELS = {
   'gemini-3.0-flash-high':          { name: 'gemini-3.0-flash-high',          provider: 'google', enumValue: 0,   modelUid: 'MODEL_GOOGLE_GEMINI_3_0_FLASH_HIGH', credit: 1.75 },
   'gemini-3.1-pro-low':             { name: 'gemini-3.1-pro-low',             provider: 'google', enumValue: 0,   modelUid: 'gemini-3-1-pro-low', credit: 1 },
   'gemini-3.1-pro-high':            { name: 'gemini-3.1-pro-high',            provider: 'google', enumValue: 0,   modelUid: 'gemini-3-1-pro-high', credit: 2 },
+  'gemini-3.5-flash-low':           { name: 'gemini-3.5-flash-low',           provider: 'google', enumValue: 0,   modelUid: 'MODEL_GOOGLE_GEMINI_3_5_FLASH_LOW', credit: 1 },
+  'gemini-3.5-flash':               { name: 'gemini-3.5-flash',               provider: 'google', enumValue: 0,   modelUid: 'MODEL_GOOGLE_GEMINI_3_5_FLASH_MEDIUM', credit: 1 },
+  'gemini-3.5-flash-high':          { name: 'gemini-3.5-flash-high',          provider: 'google', enumValue: 0,   modelUid: 'MODEL_GOOGLE_GEMINI_3_5_FLASH_HIGH', credit: 2 },
 
   // ── DeepSeek ────────────────────────────────────────────
   'deepseek-v3':                    { name: 'deepseek-v3',                    provider: 'deepseek', enumValue: 205, credit: 0.5, deprecated: true },
@@ -287,6 +290,7 @@ _lookup.set('swe-1-6', 'swe-1.6');
 _lookup.set('swe-1-6-fast', 'swe-1.6-fast');
 _lookup.set('minimax-m2-5', 'minimax-m2.5');
 _lookup.set('kimi-k2-5', 'kimi-k2.5');
+_lookup.set('gemini-3.5-flash-medium', 'gemini-3.5-flash');
 
 // Anthropic official dated names — Cursor / Claude Code / Anthropic SDK
 // all send these verbatim. Map each to our short key so the same client

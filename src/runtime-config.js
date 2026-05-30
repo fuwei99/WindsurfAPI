@@ -32,7 +32,7 @@ const DEFAULTS = {
     // through). Default ON so the proxy stops burning upstream calls
     // that would 429 anyway. Can be turned off if operator prefers
     // graceful degradation over hard refusal.
-    droughtRestrictPremium: true,
+    droughtRestrictPremium: false,
     // v2.0.67 (#112) — Auto-pull docker self-update during traffic lulls.
     // When ON the proxy watches per-minute request rate; if it stays
     // under `autoUpdateQuietWindow.thresholdRequests` for the full
